@@ -1,3 +1,6 @@
 $(document).ready( function() {
-  // your code here
+  $('.note').on("click", function() {
+    alert('Clicked on letter!');
+  });
+
 });
