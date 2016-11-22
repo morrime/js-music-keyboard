@@ -7,6 +7,7 @@ $(document).ready( function() {
   $('.note').on("click", function() {
     var selection = $(this).html();
     var sound = $("#" + selection + "Audio")[0];
+    loadPlay(sound);
   });
 
   $("body").on("keydown", function(event) {
